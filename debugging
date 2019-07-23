@@ -1,0 +1,3 @@
+#!/bin/bash
+cp -r  $(ls -d1 */ | grep -v original | xargs) original && \
+cp -r ~/Documents/elephant/code/$1/$2/*/ .
